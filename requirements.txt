@@ -1,0 +1,4 @@
+flask
+motor
+httpx
+python-dotenv

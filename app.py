@@ -21,10 +21,7 @@ REFRESH_INTERVAL = 6 * 60 * 60  # en secondes (6 heures)
 TEMP_EXPIRE_LIMIT = 30 * 60  # en secondes (30 minutes)
 
 JWT_SERVERS= [
-"http://token1.thug4ff.com/",
-"http://token2.thug4ff.com/",
-"http://token3.thug4ff.com/",
-"http://token4.thug4ff.com/",
+"https://jwt-token-gen-api.vercel.app/"
 ]
 load_dotenv()
 # --- Variables globales ---
